@@ -17,8 +17,8 @@ def login():
    d1 = r.get("c")
    #今日注册
    d2 = r.get("e")
-   if len(Test.objects.filter(date=t))==0:
-    save(d2,d1,t)
+   # if len(Test.objects.filter(date=t))==0:
+   #  save(d2,d1,t)
    print(type(t))
    return d1,d2
 
