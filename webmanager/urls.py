@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from home import views as home_view
 from aiqu import views as aiqu_view
+from gmyeyou import views as gmyeyou_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
